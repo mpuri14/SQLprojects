@@ -5,9 +5,9 @@ import psycopg2
 from psycopg2 import Error
 
 try:
-    connection = psycopg2.connect(user="postgres",
-                                  password="password123",
-                                  host="127.0.0.1",
+    connection = psycopg2.connect(user="xx",
+                                  password="xx",
+                                  host="xx",
                                   port="5432",
                                   database="postgres")
 
